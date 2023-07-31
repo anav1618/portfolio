@@ -1,0 +1,243 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2 {
+    font-family: 'Sawarabi Mincho';
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 0.6rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1;
+    margin: 4rem 1rem 1rem 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fdf7f2;
+    padding: 1rem 2rem 2rem 2rem;
+
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+header nav ul {
+    gap: 2rem;
+}
+
+.login {
+    background-color: black;
+    border-radius: 1.5rem;
+    color: white;
+    padding: 0.5rem 0.8rem;
+}
+
+/*.rightheader {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+}
+
+.rightheader h1{
+font-size: 48px;
+color: #DA0090;
+}
+
+.rightheader p{
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    text-decoration: underline;
+}*/
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+article nav ul {
+    padding: 0 0 1rem 0;
+    margin: 0;
+}
+
+article nav p {
+    margin: 1rem;
+}
+
+/* article img {
+    border: solid pink;
+    float: left;
+} */
+article {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+
+}
+
+.p1section {
+    font-weight: bold;
+    font-family: 'Sawarabi Mincho';
+}
+
+.form {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+}
+
+.blog {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+}
+
+.getbutton {
+    border: solid #db91fa;
+    border-radius: 2rem;
+    background-color: #db91fa;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-family: 'Sawarabi Mincho';
+}
+
+a:hover {
+    background-color: #f2e7d9;
+}
+
+/*article nav,
+article h2 {
+    flex: 1;
+}*/
+
+
+
+/*article h2 {
+    display: flex;
+    flex-flow: column;
+    gap: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #DA0090;
+}*/
+
+/*footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #A51F10;
+    margin-top: 0.4rem;
+    aspect-ratio: 1/1;
+}*/
+
+footer {
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+    background-color: #f2e7d9;
+    border-radius: 1rem 0 1rem 1rem;
+    clip-path: polygon(0 0,
+            0 0,
+            90% 0,
+            100% 40%,
+            100% 100%,
+            100% 100%,
+            0% 100%,
+            0% 100%,
+            0% 0%);
+}
+
+footer nav {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer ul img {
+    max-width: 23px;
+    max-height: 23px;
+}
+
+footer a {
+    font-size: 13px;
+}
+
+footer nav p {
+    margin: 0 1rem 0.5rem 1rem;
+}
+
+.imgfooter {
+    border-radius: 1rem;
+    max-width: 90px;
+    max-height: 90px;
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    width: 50%;
+}
+
+.inwrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.part1article {
+    border-top: 1px solid gray;
+}
+
+.bigphoto {
+    border-radius: 1rem;
+    max-width: 450px;
+    max-height: 720px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+
+}
